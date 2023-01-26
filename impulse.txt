@@ -1,0 +1,80 @@
+#include <stdio.h>
+
+#define Order 2
+#define Len 10
+
+float y[Len]={0,0,0},sum;
+
+main()
+
+{
+int j,k;
+
+float a[Order+1]={0.1311, 0.2622, 0.1311};
+float b[Order+1]={1, -0.7478, 0.2722}:
+
+for(j=0;j<Len;j++)
+
+sum=0;
+for(k=1;k<=Order;k++)
+{
+
+if((j-k)>=0)
+sum=sum+(b[k]*y[j-k]);
+}
+
+if(j<=Order)
+
+ylj]=alj]-sum;
+}
+
+else
+
+{
+
+yljJ=-sum;
+
+
+float y[Len]={0,0,0},sum;
+
+main()
+{
+int j,k;
+
+float a[Order+1]={0.1311, 0.2622, 0.1311};
+float b[Order+1]={1, -0.7478, 0.2722};
+
+for(j=0;j<Len;j++)
+
+{
+
+sum=0;
+for(k=1;k<=Order;k++)
+{
+
+if((j-k)>=0)
+sum=sum+(b[k]*y[j-k]);
+}
+
+if (j<=Order)
+
+{
+
+yli]=alj]-sum;
+
+}
+
+else
+
+{
+
+y[j]=-sum;
+
+}
+
+printf("Respose[%d] = %f\n"j.y[j]);
+
+}
+}
+
+
